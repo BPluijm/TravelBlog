@@ -1,7 +1,17 @@
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import AboutImg from "../assets/sunset.jpg";
+
 function Service() {
     return(
         <>
-        <h1>Service</h1>
+        <Navbar />
+        <Hero 
+        cName="hero-mid"
+        heroImg={AboutImg}     
+        title="Service"
+        btnClass="hide"
+        />
         </>
     )
 }
