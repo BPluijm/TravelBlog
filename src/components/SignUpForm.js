@@ -9,7 +9,7 @@ function SignUpForm(){
                 <input placeholder="Email"/>
                 <input placeholder="Password"/>
                 <input placeholder="Repeat Password"/>
-                <button>Sign Up</button>
+                <button type="submit">Create account</button>
             </form>
         </div>
     );
